@@ -1,0 +1,5 @@
+#!/bin/sh
+
+SPACE=$(df -h | grep /dev/nvme0n1p2 | cut -d" " -f7)
+
+echo "🪐 ${SPACE}"

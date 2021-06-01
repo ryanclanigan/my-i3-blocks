@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Prints current wifi name in green.
+
 NETWORK=$(nmcli -t -f active,ssid dev wifi | egrep '^yes' | cut -d: -f2)
 COLOR=`tput setaf 10`
 

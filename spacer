@@ -1,3 +1,5 @@
 #!/bin/sh
 
+# Adds a zero width space to the toolbar to make i3blocks look nicer with the tray output
+
 echo "​"
